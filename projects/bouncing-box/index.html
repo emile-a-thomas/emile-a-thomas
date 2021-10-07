@@ -44,7 +44,7 @@
 			// Every 50 milliseconds, call the update Function (see below)
 			setInterval(update, 50);
 			function moveBoxTo(newPositionX) {
-    box.css("left", newPositionX = 0);
+    box.css("left", newPositionX = 9);
 }
 			// Every time the box is clicked, call the handleBoxClick Function (see below)
 			box.on('click', handleBoxClick);
@@ -64,10 +64,11 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
+			var myVariable = someValue;
 			
 
-			function update(1) {
-				nameOfFunction(900)
+			function update() {
+				moveBoxTo(100);
 			};
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
