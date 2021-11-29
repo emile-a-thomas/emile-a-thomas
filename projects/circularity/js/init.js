@@ -32,7 +32,19 @@ view.addChild(circle);
 circles.push(circle);
 
         // TODO 3 / 8 : Call the drawCircle() function 
-        drawCircle(5);
+        drawCircle();
+        drawCircle();
+        drawCircle();
+        drawCircle();
+        drawCircle();
+        var loopsCompleted = 0; 
+while (loopsCompleted < 10) {
+    loopsCompleted++
+}
+
+for (var loopsCompleted = 0; loopsCompleted < 10; loopsCompleted++) {
+    console.log(loopsCompleted);
+}
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -58,11 +70,11 @@ circles.push(circle);
             function update() {
                 // TODO 4 : Update the circle's position //
             
-                game.checkCirclePosition();
-    game.checkCirclePosition();
-    game.checkCirclePosition();
-    game.checkCirclePosition();
-    game.checkCirclePosition();
+            game.checkCirclePosition();
+            game.checkCirclePosition();
+            game.checkCirclePosition();
+            game.checkCirclePosition();
+            game.checkCirclePosition();
             }
 
             // TODO 9 : Iterate over the array
